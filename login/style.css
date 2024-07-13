@@ -1,0 +1,106 @@
+body{
+    font-family:'Fredoka' ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: linear-gradient(orange, rgb(255, 201, 185));
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 1000px;
+}
+.thing{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    border: none;
+    background-color: aliceblue;
+    padding: 50px;
+    align-items: center;
+    min-width: 500px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+    box-shadow: 20px 20px red;
+}
+.subthing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+.buttons button{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border: solid black 2px;
+    border-radius: 30px;
+    margin: 5px;
+}
+input{
+    margin: 10px;
+    font-family: 'Fredoka';
+    padding: 5px;
+}
+.text{
+    min-height: 30px;
+    min-width: 250px;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+
+.text:focus{
+    background-color: palegoldenrod;
+}
+
+#submit{
+    font-size: 35px;
+    padding: 20px;
+    border: solid black 2px;
+    border-radius: 30px;
+    background-color: orange;
+}
+#submit:hover{
+    background-color: red;
+}
+.checkyboxy{
+    margin: 5px;
+    padding: 5px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkyboxy input{
+    width: 20px;
+    border-radius: 200px;
+    border: solid black 2px;
+}
+#message{
+    border: solid black 2px;
+    border-radius: 30px;
+    min-width: 200px;
+    min-height: 150px;
+    padding: 10px;
+}
+.slabel{
+    display: none;
+}
+
+.text:not(:placeholder-shown) ~ .slabel{
+    display: block;
+    position: absolute;
+    transform: translateY(20px);
+}

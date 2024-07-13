@@ -1,0 +1,126 @@
+header{
+    background-color: rgb(145, 145, 255);
+    color: rgb(33, 45, 64);
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-top: 5px solid rgb(33, 45, 64);
+    border-bottom: 5px solid rgb(33, 45, 64);
+    border-radius: 10px;
+}
+header h2{
+    text-align: left;
+    margin: 10px;
+}
+nav{
+    margin-left: auto;
+}
+nav a{
+    margin: 10px;
+}
+jumbotron{
+    background-image: url(assets/jumbotron-bg.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+jumbotron h1{
+    font-size: 30px;
+}
+jumbotron img{
+    height: 600px;
+    width: auto;
+}
+.text{
+    display: block;
+
+}
+aside{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: yellow;
+    max-width: 100px;
+    margin: 20px;
+    max-height: 300px;
+    border-top: 5px solid rgb(33, 45, 64);
+    border-bottom: 5px solid rgb(33, 45, 64);
+    border-radius: 10px;
+
+    position: absolute;
+
+}
+.buttonbox{
+    display: flex;
+    flex-direction: row;
+}
+#pfp{
+    width: 100px;
+    height: auto;
+    border: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 20px gainsboro;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttonbox h2{
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    border-top: 5px solid rgb(33, 45, 64);
+    border-bottom: 5px solid rgb(33, 45, 64);
+    max-width: 600px;
+}
+.container img{
+    width: 500px;
+
+}
+footer{
+    text-align: center;
+    background-color:rgb(255, 238, 208);
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 5px solid rgb(33, 45, 64);
+    border-bottom: 5px solid rgb(33, 45, 64);
+}
+
+body{
+    font-family:'Fredoka' ;
+}
+.text{
+    margin: 50px;
+}
+.extra{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid rgb(33, 45, 64);
+    border-bottom: 5px solid rgb(33, 45, 64);
+}
+body{
+    background-image: linear-gradient(rgb(255, 238, 208),rgb(145, 145, 255));
+}
+stuff{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

@@ -1,0 +1,34 @@
+main{
+    text-align: center;
+}
+.part{
+    padding: 10px;
+    margin: 10px;
+    max-width: 200px;
+    justify-content: left; 
+    display: flex;
+    flex-direction: column;
+}
+
+.part label{
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.submit{
+    padding: 10px;
+    font-size: 20px;
+    background-color: bisque;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid black 5px;
+}
+.ok{
+    display: flex;
+    justify-content: center;
+}
+.little label{
+    font-size: 15px;
+    display: initial;
+}

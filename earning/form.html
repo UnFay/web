@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Competition Enrollment 2021</h2>
+        <div class="ok">
+
+            <form action="result.html">
+                <div class="part">
+                    <label for="category">Category</label>
+                    <select name="category" id="category" required>
+                        <option value="Kids (8-10 y)">Kids (8-10 y)</option>
+                        <option value="Teens (11-13 y)">Teens (11-13 y)</option>
+                        <option value="High School (14-16 y)">High School (14-16 y)</option>
+                        <option value="Adult (17-21 y)">Adult (17-21 y)</option>
+                    </select>
+                </div>
+                <div class="part">
+                    <input type="number" name="age" id="age" min="8" max="16" placeholder="Age" required> 
+                </div>
+                <div class="part">
+                    <input type="text" name="username" id="username" placeholder="Name" required>
+                </div>
+                <div class="part">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="part">
+                    <textarea name="address" id="address" placeholder="Address" required></textarea>
+                </div>
+                <div class="part">
+                    <input type="number" name="number" id="number" placeholder="Phone number" required>
+                </div>
+                <div class="part">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="part">
+                    <label for="date">Birth date:</label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                <div class="part">
+                    <label>Gender: </label>
+                    <div class="little">
+                        <input type="radio" name="gender1" id="gender" class="check" value="male">
+                        <label for="gender1">Male</label>
+                        <input type="radio" name="gender2" id="gender" class="check" value="Female">
+                        <label for="gender2">Female</label>
+                    </div>
+                </div>
+                <div class="part">
+                    <label>Documents: </label>
+                    <div class="little">    
+                        <input type="checkbox" name="docs1" id="docs" value="student" required>
+                        <label for="docs1">Student Card</label>
+                    </div>
+                    <div class="little">
+                        <input type="checkbox" name="docs2" id="docs" value="bio" required>
+                        <label for="docs2">Biodata</label>
+                    </div>
+                    <div class="little">
+                        <input type="checkbox" name="docs3" id="docs" value="contract" required>
+                        <label for="docs3">Contract Form</label>
+                    </div>
+                </div>
+    
+                <div class="part">
+                    <input type="submit" value="Submit" class="submit">
+                </div>
+        </form>
+        </div>
+
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,tr,th,td{
+        border: solid 3px rgb(17, 17, 45);
+        border-collapse: collapse;
+        padding: 6px;
+        text-align: right;
+        vertical-align: top;
+    }
+    th{
+        background-color: rgb(55, 63, 173);
+        color: white;
+    }
+    td{
+        background-color: aliceblue;
+    }
+    .adivision{
+        background-image:url('folder/shake.png'),url('folder/cat.png');
+        background-size: cover,contain;
+        justify-content: center;
+        display: flex;
+    }
+    img{
+        display: block;
+    }
+    img:hover{
+        border: 6px solid blue;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2">No.</th>
+            <th rowspan="2">Item</th>
+            <th colspan="2">Price</th>
+        </tr>
+        <tr>
+            <td>For 1</td>
+            <td>For 5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Toilet paper roll</td>
+            <td>$120</td>
+            <td>$500</td>
+        </tr>
+    </table>
+    <div class="adivision">
+        <img src="folder/poo.webp" alt="cat" >
+    </div>
+    
+</body>
+</html>

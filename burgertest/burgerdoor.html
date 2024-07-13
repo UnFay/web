@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .breakfast{
+        background-color: rgba(220, 220, 220, 0.637);
+        margin: 90px;
+        padding: 10px;
+    }
+    .mini{
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+    }
+    .big{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .mini img{
+        width: 400px;
+        height: 250px;
+        padding: 10px;
+        opacity: 0.6;
+    }
+    .mini img:hover{
+        opacity: 1;
+    }
+    .mini h4{
+        text-align: center;
+        color: rgb(78, 61, 15);
+    }
+    .breakfast h3{
+        font-size: 40pt; 
+        text-align: center;
+        color: rgb(78, 61, 15);
+    }
+    table{
+        justify-self: center;
+    }
+    td,th,tr{
+        border: 2px solid rgb(84, 82, 87);
+        background-color: rgba(34, 139, 34, 0.342);
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 25px;
+    }
+    td,th{
+        border-radius: 10px;
+    }
+    .tablediv{
+        display: grid;
+        padding: 30px;
+    }
+
+    .breakfast h4{
+        font-size: 25px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    
+    .all{
+        font-family: "League Spartan", sans-serif;
+    }
+</style>
+<body>
+    <div class="all">
+        <div style="background-image: url(drive-download-20240120T055739Z-001/cover1.jpg); background-size: cover;">
+            <div class ="title">
+                <h1 style="font-size: 50pt; color: rgb(223, 181, 46); text-align: center;">BURGERDOOR CAFE MENU</h1>
+                <h5 style="color: rgb(102, 60, 6); text-align: center;">Since 1999</h5>
+                <img src="drive-download-20240120T055739Z-001/cover2.jpg" alt="picture" style="width: 1000px; height: 500px;border: 20px solid rgba(182, 181, 181, 0.281); align-self: center;">
+                <p style="font-size: 30pt;color: rgb(243, 197, 72);text-align: center;">Hungry everyone? <br> Scroll It Now!</p>
+            </div>
+
+            <div class="breakfast">
+                <h3>Breakfast</h3>
+                <div class="big">
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/breakfast1.jpg" alt="breakfast1">
+                        <h4>Fruity Pretty Smoothies</h4>
+                    </div>
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/breakfast2.jpg" alt="breakfast1">
+                        <h4>Longlife Salads</h4>
+                    </div>
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/breakfast3.jpg" alt="breakfast1">
+                        <h4>Full Almond Cookies</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="breakfast">
+                <h3>Burger</h3>
+                <div class="big">
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/burger1.jpg" alt="breakfast1">
+                        <h4>Bikini Bottom Burger Set</h4>
+                    </div>
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/burger2.jpg" alt="breakfast1">
+                        <h4>Tasty Rice Burger</h4>
+                    </div>
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/burger3.jpg" alt="breakfast1">
+                        <h4>Simple Beef Burger</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="breakfast">
+                <h3>Coffee</h3>
+                <div class="big">
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/coffee1.jpg" alt="breakfast1">
+                        <h4>Cappucinno Everyday</h4>
+                    </div>
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/coffee2.jpg" alt="breakfast1">
+                        <h4>Italian Coffee</h4>
+                    </div>
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/coffee3.jpg" alt="breakfast1">
+                        <h4>Chocolate and Marshmallow Coffee</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="breakfast">
+                <h3>Tea</h3>
+                <div class="big">
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/tea1.jpg" alt="breakfast1">
+                        <h4>Classing Italian Tea</h4>
+                    </div>
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/tea2.jpg" alt="breakfast1">
+                        <h4>Rosemary tea</h4>
+                    </div>
+                    <div class=" mini">
+                        <img src="drive-download-20240120T055739Z-001/tea3.jpg" alt="breakfast1">
+                        <h4>Greentea or Rose Tea</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="tablediv">
+                <table>
+                    <tr>
+                        <th>Opening Hours</th>
+                        <th>Location</th>
+                        <th>Contacts</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">9 am until 10 pm</td>
+                        <td rowspan="2">Jalan Bersama No 1, Denpasar</td>
+                        <td>Phone: +62878 6233 1621</td>
+                    </tr>
+                    <tr>
+                        <td>Instagram :Burgerdoor</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

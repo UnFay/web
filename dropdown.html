@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a{
+        padding: 10px;
+        font-size: 25px;
+        background-color: blue;
+        color: aliceblue;
+        border-radius: 7px;
+        border: black solid 5px;
+    }
+    .DropContent{
+        display: none;
+    }
+    .Dropdown:hover .DropContent{
+        display: block;
+    }
+</style>
+<body>
+    
+    <div class="Dropdown">
+        <a>Dropdown</a>
+        <div class="DropContent">
+            <ul>
+                <li><p>Thing</p></li>
+                <li><p>Thing2</p></li>
+                <li><p>Thing3</p></li>
+            </ul>
+        </div>
+    </div>
+    <p>hello</p>
+</body>
+</html>

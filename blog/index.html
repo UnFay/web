@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/28e55d550a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="leftheader">
+            <img src="assets/header-icon.png" alt="icon" style="width: 100px;height: auto;padding: 5px;margin: 5px;">
+            <h2 style="align-self: center;">random blog website</h2>
+        </div>
+        
+        <div class="rightheader">
+            <a href="#project" class="rightheaderitems">Project</a>
+            <a href="#contact" class="rightheaderitems">Contact Us</a>
+            <a href="#about" class="rightheaderitems">About Us</a>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <h3>One</h3>
+            <h3>Two</h3>
+            <h3>Three</h3>
+            <h3><i class="fa-solid fa-star"></i></h3>"
+            <img id="#pic" src="assets/ar.png" alt="ar" style="width: 70px;" onmouseenter="changeenter(this)" onmouseleave="changeleave(this)">
+            <h3>ok</h3>
+        </aside> 
+    
+        <div class="articles">
+
+            <article>
+                <h2>Number One <i class="fa-solid fa-dice-one"></i></h2>
+                <p>1</p>
+            </article>
+            <article>
+                <h2>Number Two <i class="fa-solid fa-dice-two"></i></h2>
+                <p>2</p>
+            </article>
+            <article>
+                <h2>Number Three <i class="fa-solid fa-dice-three"></i></h2>
+                <p>3</p>
+            </article>
+            <article class="vids">
+                <div class="viditem">
+                    <h3>What is coding</h3>
+                    <iframe src="https://www.youtube.com/embed/XMZFUnAgOqs" title="BBC Learning - What Is Coding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="viditem">
+                    <h3>Coding isn't difficult</h3>
+                    <iframe src="https://www.youtube.com/embed/hb7Q33ysCwI" title="Coding is Not Difficult - Bill Gates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </article>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5782858.9228088325!2d34.576838250000065!3d79.80905431143385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1713593727880!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            <h3>Learn coding</h3>
+            <video width="320px" height="240px" controls>
+                <source src="assets/coding.mp4">
+            </video>
+
+            <h3>silly</h3>
+            <audio controls>
+                <source src="assets/metal-bar.mp3">
+            </audio>
+            <br>
+            <button onclick="day()">Day</button>
+            <button onclick="night()">Night</button>
+            <br>
+            <button onclick="like()" class="btn" id="green"><i class="fa-solid fa-thumbs-up"></i></button>
+            <button onclick="dislike()" class="btn" id="red"><i class="fa-solid fa-thumbs-down"></i></button>
+            <h3>Delete all the little guys!!</h3>
+            <div class="bigthing">
+                <div class="thing">
+                    <h3 class="close">X</h3>
+                    <img src="assets/picher.png" alt="">
+                    <p>hello</p>
+                </div>
+                <div class="thing">
+                    <h3 class="close">X</h3>
+                    <img src="assets/picher.png" alt="">
+                    <p>hello</p>
+                </div>
+                <div class="thing">
+                    <h3 class="close">X</h3>
+                    <img src="assets/picher.png" alt="">
+                    <p>hello</p>
+                </div>
+            </div>
+            <div class = bigforthings>
+                <div class="things">
+                    <div class="boxforthings">
+                        <img src="assets/Screenshot 2024-05-11 092755.png" alt="">
+                        <h3>Game screenshot</h3>
+                    </div>
+                    <div class="boxforthings">
+                        <img src="assets/twitter.PNG"alt="">
+                        <h3>Amazing drawing</h3>
+                    </div>
+                </div>
+                <div class="things">
+                    <div class="boxforthings">
+                        <img src="assets/typeshot.png" alt="">
+                        <h3>Game screenshot</h3>
+                    </div>
+                    <div class="boxforthings">
+                        <img src="assets/lostshot.png"alt="">
+                        <h3>game over screenshot</h3>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    
+        <aside>
+            <h3>Four</h3>
+            <h3>Five</h3>
+            <h3>Six</h3>
+            <h3 id="#seven" onmouseover="sevenE(this)" onmouseout="sevenL(this)"><i class="fa-solid fa-star"></i></h3>
+            <div class="search-container">
+                <div class="input-tag">
+                    <h3>Fun list</h3>
+                    <input type="text" id="search-input" placeholder="Search tags">
+                    <span class="addBtn" onclick="newElement()">Input</span>
+                </div>
+                <ul id="searchUL" class="search-list">
+                    <li>HTML</li>
+                    <li>Code</li>
+                </ul>
+            </div>
+        </aside>
+
+
+    </main>    
+    <footer>
+        <h3>footer</h3>
+        <h3><i class="fa-brands fa-square-twitter"></i> <i class="fa-brands fa-square-x-twitter"></i> <i class="fa-brands fa-square-twitter"></i> <i class="fa-brands fa-square-x-twitter"></i> <i class="fa-brands fa-square-twitter"></i> <i class="fa-brands fa-square-x-twitter"></i></h3>
+        <h3 style="border-top: solid antiquewhite; padding: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex totam nisi corporis natus laborum id ad facilis maiores debitis architecto accusantium ipsum non, nostrum impedit nam quis vero mollitia eius?</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
