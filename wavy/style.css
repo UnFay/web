@@ -1,0 +1,115 @@
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+h3{
+    font-size: 40px;
+}
+.skills{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(231, 182, 60);
+    text-align: center;
+    border:solid white 10px;
+    max-width: 60%;
+    width:fit-content;
+}
+.actualskills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:fit-content;
+    margin: 20px;
+}
+
+.skillsub{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(133, 188, 236);
+    border:solid rgb(36, 38, 139) 5px;
+    max-width: 600px;
+}
+.jumbotron{
+    background-color: rgb(231, 182, 60);
+    padding-top: 50px;
+    margin: 50px;
+    border-radius: 30px;
+    border:solid white 10px;
+    max-width: 60%
+}
+.jumbotext{
+    padding-left: 25px;
+    max-width: 1000px;
+    margin: 0px 30px;
+}
+.jumbocontent{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic{
+    border-radius: 100px;
+    width: 250px;
+    height: fit-content;
+    margin: 20px;
+}
+body{
+    background-image:url(assets/bg_bggenerator_com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.skillsub img{
+    width: 300px;
+}
+.projects{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    max-width: fit-content;
+}
+.projectsub{
+    flex-direction: row;
+    display: flex;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 30px;
+    background-color: rgb(133, 188, 236);
+    border:solid rgb(36, 38, 139) 5px;
+    width: fit-content;
+}
+.textpart{
+    text-align: left;
+    margin: 10px;
+}
+.projectsub img{
+    justify-self: right;
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+}
+button{
+    padding: 30px;
+    align-self: center;
+    font-size: 30px;
+    margin: 10px;
+    border:solid rgb(87, 36, 139) 5px;
+    background-color: rgb(255, 160, 88);
+    border-radius: 30px;
+}
+button:hover{
+    background-color: #fff06b;
+}
+
