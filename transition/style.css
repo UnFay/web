@@ -1,0 +1,16 @@
+.container{
+    width: 80%;
+    border: 10px solid black;
+}
+.aircraft{
+    display: block;
+    margin-bottom: 20px;
+    transition-duration: 3s;
+    width: 200px;
+    transition-timing-function: cubic-bezier(0.075,
+    0.82,0.165,2);
+}
+.container:hover .aircraft{
+    margin-left: 200px;
+    width: 70px;
+}

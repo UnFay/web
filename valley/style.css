@@ -1,0 +1,70 @@
+h2{
+    font-family: "WindSong", cursive;
+    font-size: 40px;
+}
+.valley{
+    width:600px;
+}
+.standard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+.ok{
+    position: relative;
+    left:150px;
+    bottom: 80px;
+    font-family: "Roboto";
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+p{
+    font-family: "Roboto";
+}
+.things{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+    flex-direction: column;
+    align-items: center;
+}
+.sub{
+    background-image: linear-gradient(rgb(145, 145, 226),rgb(255, 213, 135));
+    border: 5px blue solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 80%;
+
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s;
+}
+.sub img{
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 5px white solid;
+}
+h3{
+    font-family: "Roboto";
+}
+.text{
+    margin: 20px;
+    text-align: justify;
+}
+section{
+    margin: 50px 30px;
+}
+.active{
+    transform: none;
+    opacity: 1;
+}
