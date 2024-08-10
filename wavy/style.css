@@ -35,6 +35,11 @@ h3{
     border:solid rgb(36, 38, 139) 5px;
     max-width: 600px;
 }
+.skillsub:hover{
+    animation: Enlargen;
+    animation-duration: 1s;
+    transition: all;
+}
 .jumbotron{
     background-color: rgb(231, 182, 60);
     padding-top: 50px;
@@ -62,6 +67,10 @@ h3{
     width: 250px;
     height: fit-content;
     margin: 20px;
+    animation-name: Spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear
 }
 body{
     background-image:url(assets/bg_bggenerator_com.png);
@@ -71,6 +80,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding: 500px 0px;
 }
 .skillsub img{
     width: 300px;
@@ -89,6 +99,11 @@ body{
     background-color: rgb(133, 188, 236);
     border:solid rgb(36, 38, 139) 5px;
     width: fit-content;
+}
+.projectsub:hover{
+    animation: Enlargen;
+    animation-duration: 1s;
+    transition: all;
 }
 .textpart{
     text-align: left;
@@ -111,5 +126,25 @@ button{
 }
 button:hover{
     background-color: #fff06b;
+}
+
+@keyframes Spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes Enlargen{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    0%{
+        transform: scale(1);
+    }
 }
 
